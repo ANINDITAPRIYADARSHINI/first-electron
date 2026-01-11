@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  -webkit-app-region: drag;
+  background-image: url("assets/outer-frame-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+
+.title {
+
+    display: flex;
+    width: 157px;
+    aspect-ratio: 157/27;
+    padding: 0.25rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6.25rem;
+    border: 1px solid #C079FF;
+    background: rgba(210, 164, 255, 0.40);
+
+    color: var(--white, #FFF);
+
+    /* text styling */
+    font-family: Pixeboy;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
